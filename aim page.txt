@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+      }
+
+      /* Style the header */
+      .header {
+        background-image: linear-gradient(to bottom right, #D8BFD8, #DDA0DD, #ADFF2F );
+        padding: 30px;
+        text-align: center;
+        color: azure;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color:rgba(37, 204, 172, 0.85)
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Create three unequal columns that floats next to each other */
+      .column {
+        float: left;
+        padding: 10px;
+      }
+
+      /* Left and right column */
+      .column.side {
+        width: 25%;
+      }
+
+      /* Middle column */
+      .column.middle {
+        width: 50%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column.side, .column.middle {
+          width: 100%;
+        }
+      }
+
+      /* Style the footer */
+      .footer {
+        background-color: #D8BFD8;
+        padding: 10px;
+        text-align: center;
+      }
+      }
+      .h2{
+        color: #117376;
+        font-family: cursive;
+        font-size: 30px;
+        background-color: cornflowerblue
+
+      }
+      .hi{
+        color: #117376;
+        font-size: 15px;
+        font-family: cursive;
+        background-color: #F0FFF0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>S&M</h1>
+      <b><p font-size="20.5 px">Saanvi and Mehek
+        <br>
+        Experience od 11 to 12 years</p></b>
+    </div>
+
+    <div class="topnav">
+    <a href="home.html">Home</a>
+    <a href="Aim.html">Aim</a>
+    <a href="About.html">About us</a>
+    <a href="Rateus.html">Rate us</a>
+      
+    </div>
+
+    <div class="row">
+      <div class="column side">
+        <h2 class="h2">Goal</h2>
+        <p class="hi">Saanvi and Mehek's Goal is to learn to make a website since we dont know how to we r trying our utmost best to make a webpage look like a website   </p>
+      </div>
+
+      <div class="column middle">
+        <h2 class="h2">Our journey</h2>
+        <p class="hi">Saanvi and Mehek is successfully able to make a Webpage look like a website now in the future we both are hoping to learn to make a website succesfully together lets cross our fingers and see in the future</p>
+      </div>
+
+      <div class="column side">
+        <h2 class="h2">Hang on together</h2>
+        <p class="hi">Make sure to hang on there together to see i the future what all we might come up with </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h3>Group members: Saanvi and Mehek</h3>
+      <h3>Aim : to make a webpage look like a website</h3>
+      <h3> Follow mehek on Instagram: @cheekymehek
+      </h3><br>
+      <h2> Keep Rocking! And Thank you!:)</h2>
+    </div>
+
+  </body>
+</html>

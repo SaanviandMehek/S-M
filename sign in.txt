@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    input[type=text], [type=password] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      width: 24%;
+      background-image:  url("tumblr_7d29943a00dbf16bcccf25495f0c5b5b_ce83070b_400.gif");
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    }
+
+    input[type=submit]:hover {
+      background-color: cyan;
+    }
+
+    div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    hi{
+      color: #008080;
+    }
+    .header {
+      background-image: linear-gradient(to bottom right, #D8BFD8, #DDA0DD, #ADFF2F );
+      padding: 30px;
+      text-align: center;
+      font-size: 25.5px;
+      color: azure;
+      width: auto;
+
+  </style>
+  <body>
+    <center class="header"><h1>Sign In</h1></center>
+    <div>
+      <form action="/action_page.php">
+
+        <label for="lname">Gmail</label>
+        <input type="text" id="lname" name="gmail" placeholder="Your gmail....">
+
+        <label for="lname">Username</label>
+        <input type="text" id="lname" name="username" placeholder="Username">
+
+        <label for="lname">Password</label>
+        <input type="password" id="lname" name="password" placeholder="Must contain more then 4 letters and needs to have a Cap latter......">
+
+
+        <center><a href="home.html"> <input class="hi" type="submit" value="Sign In"></center>
+          </form>
+        </div>
+      "
+      </body>
+    </html>

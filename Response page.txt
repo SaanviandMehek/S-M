@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <title>CSS Website Layout</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+
+          body { 
+            margin: 0;
+          }
+
+          /* Style the header */
+          .header {
+            background-image: linear-gradient(to bottom right, #D8BFD8, #DDA0DD, #ADFF2F );
+            padding: 20px;
+            text-align: center;
+            font-size: 19.5px;
+            color: azure
+          }
+          .h2{
+            color: #117376;
+            font-family: cursive;
+            font-size: 30px;
+            background-image:url(tumblr_7d29943a00dbf16bcccf25495f0c5b5b_ce83070b_400.gif);
+            -webkit-background-clip: text;
+            color: transparent;
+
+          }
+          
+          .button {
+            background-image: url(tumblr_7d29943a00dbf16bcccf25495f0c5b5b_ce83070b_400.gif);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+        </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1><b>S&M</b></h1>
+      <p><b>Saanvi and Mehek experience of 11 to 12 years...</b></p>
+    </div><br><br>
+    <h2 class="h2">Thank you for your response !!!<br>
+      We really appreciate your response we will try our utmost best to make our websites better and better everyday and make sure you hang around cause we are about to make more websites! (hint) don't tell anyone shhhh...</h2>
+    <center><img src="d5740320-9537-48b4-8612-9bec8fb1b272.jpg" height="250"
+                 width=500></center>
+    
+    <center><h2>Our website card👆
+      
+      </h2></center><br><br><br>
+    
+    <center><a href="home.html"><input class="button" type="button" value="Go back">
+    
+    
+    
+    
+      
+
+      
+    
+  </body>
+</html>

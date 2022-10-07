@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Website Layout</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body { 
+        margin: 0;
+      }
+
+      /* Style the header */
+      .header {
+        background-image: linear-gradient(to bottom right, #D8BFD8, #DDA0DD, #ADFF2F );
+        padding: 20px;
+        text-align: center;
+        font-size: 19.5px;
+        color: azure
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color:rgba(37, 204, 172, 0.85)
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: azure;
+        color: black;
+      }
+
+      /* Create three unequal columns that floats next to each other */
+      .column {
+        float: left;
+        padding: 10px;
+      }
+
+      /* Left and right column */
+      .column.side {
+        width: 25%;
+      }
+
+      /* Middle column */
+      .column.middle {
+        width: 50%;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column.side, .column.middle {
+          width: 100%;
+        }
+        .footer {
+          padding: 20px;
+          text-align: center;
+          background:thistle;
+          margin-top: 15px;
+        }
+        .h2{
+          color: #117376;
+          font-family: cursive;
+          font-size: 30px;
+          background-image:url(tumblr_7d29943a00dbf16bcccf25495f0c5b5b_ce83070b_400.gif);
+            -webkit-background-clip: text;
+          color: transparent;
+          
+
+        }
+        #hi{
+          color: #117376;
+          font-size: 15px;
+          font-family: cursive;
+          background-color: #F0FFF0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1><b>S&M</b></h1>
+      <p><b>Saanvi and Mehek experience of 11 to 12 years...</b></p>
+    </div>
+
+    <div class="topnav">
+      <a href="home.html">Home</a>
+      <a href="Aim.html">Aim</a>
+      <a href="About.html">About us</a>
+      <a href="Rateus.html">Rate us</a>
+      
+
+    </div>
+
+    <div class="row">
+      <div class="column side">
+        <h2 class="h2" bgcolor="#117376">Developers</h2>
+        <p id="hi" bgcolor="#117376">The developers of this website is Saanvi and Mehek the owner of S&M Saanvi and Mehek started to work together to make S&M happen they both worked hard after every class just to make a webpage look like a website which was their motive their other motive is to learn how to make a real website and put it in google they both hope in the future that would be true so hang on there in the plane to see what all is about to come</p>
+      </div>
+
+      <div class="column middle">
+        <h2 class="h2" bgcolor="#117376">The Website/Webpage</h2>
+        <p></p>
+        <p id="hi" bgcolor="#117376">This website/webpage is about S&M and its motto Saanvi and Mehek created this Website for their Brand S&M this is way for them to practice and learn new things and we all know a brand always has its own website well this is S&M's very own Website made by a 12 and 11yr old.This website/webpage is about S&M and its motto Saanvi and Mehek created this Website for their Brand S&M this website was made with hard work and dedication and They assure you that you will be amazed by their future work</p>
+      </div>
+
+      <div class="column side">
+        <h2 class="h2" bgcolor="#117376">How we learned to code?</h2>
+        <p id="hi" bgolor="#117376">Saanvi and Mehek learned to code at school which is Vishwajyot high Mehek started at 6th grade since she was a new student and Saanvi learned way before her when Mehek had doubts she would ask Saanvi .</p>
+        <br>
+        <p id="hi" bgcolor="#117376">Mehek and Saanvis friendship started to go stronger and when they were in the same breakout room they worked everyday to make it look like a website then they started S&M.</p>
+      </div>
+    </div>
+    <div class="footer">
+      <center><h3 bgcolor="D8BFD8">Group members: Saanvi and Mehek</h3><center>
+        <center><h3 bgcolor="D8BFD8">Aim : to make a webpage look like a website</h3></center>
+      
+          </h3><br></center>
+        <center><h2 bgcolor="D8BFD8"> Keep Rocking! And Thank you!:)</h2></center>
+
+        </div>
+
+        </body>
+      </html>
+
+

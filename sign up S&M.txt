@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    input[type=text],[type=password]  {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    input[type=submit] {
+      width: 24%;
+      background-image:  url("tumblr_7d29943a00dbf16bcccf25495f0c5b5b_ce83070b_400.gif");
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+      background-color: cyan;
+    }
+
+    div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    hi{
+      color: #008080;
+    }
+
+    .header {
+      background-image: linear-gradient(to bottom right, #D8BFD8, #DDA0DD, #ADFF2F );
+      padding: 65px;
+      text-align: center;
+      font-size: 25.5px;
+      color: azure;
+      width: auto;
+
+
+
+    }
+  </style>
+  <body>
+
+    <h1><center class="header">Sign Up
+      <br>
+      Come lets get Started
+      </center></h1>
+
+
+    <div>
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">Gmail</label>
+        <input type="text" id="lname" name="gmail" placeholder="Your gmail....">
+
+        <label for="lname">New Username</label>
+        <input type="text" id="lname" name="username" placeholder="Eg:Bob123....">
+
+        <label for="lname">Password</label>
+        <input type="password" id="lname" name="password" placeholder="Must contain more then 4 letters and needs to have a Cap latter......"><i class="eye" id="togglePassword" style="margin-left: -30px;"></i>
+
+        <label for="lname">Confirm Password</label>
+        <input type="password" id="lname" name="password" placeholder="Confirm password">
+
+
+        <label for="lname">Gender</label>
+        <br>
+        <br>
+        <input type="radio" name=5>Girl ♀
+        <input type="radio" name=5>Boy ♂ 
+        <a href="home.html">
+          <center><input class="hi" type="submit" value="Sign Up"></center><a href="signin.html"> 
+
+          <h4><center>Already Have An Account?
+            <br>
+            Sign in then</center></h4>
+
+          </form>
+          </div>
+        "
+        </body>
+      </html>

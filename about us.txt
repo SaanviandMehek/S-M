@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body { 
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background-image: linear-gradient(to bottom right, #D8BFD8, #DDA0DD, #ADFF2F );
+        font-family:serif;
+        font-size: 20.5px;
+        color: azure
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color:rgba(37, 204, 172, 0.85)
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color:azure;
+        color: black
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {   
+        float: left;
+        width: 75%;
+        background-color: #AFEEEE;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background: #AFEEEE;
+
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #D8BFD8;
+        margin-top: 15px;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {   
+          width: 100%;
+          padding: 0;
+        }
+      }
+
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+      .h2{
+        color: #117376;
+        font-family: cursive;
+        font-size: 30px;
+        background-image:url(tumblr_7d29943a00dbf16bcccf25495f0c5b5b_ce83070b_400.gif);
+        -webkit-background-clip: text;
+        color: transparent;
+
+      }
+      .hi{
+        color: #117376;
+        font-size: 15px;
+        font-family: cursive;
+        background-color: #F0FFF0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>S&M</h1>
+      <b><p color="white" font size="20.5px">Saanvi and Mehek
+        <br>
+        11 to 12 years of Experience</p></b>
+    </div>
+
+    <div class="topnav">
+      <a href="home.html">Home</a>
+      <a href="Aim.html">Aim</a>
+      <a href="About.html">About us</a>
+      <a href="Rateus.html">Rate us</a>
+      
+
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2 class="h2">About Us</h2>
+          <h5 class="hi">About Saanvi And Mehek</h5>
+
+          <b><p class="hi" >How We Got Started</p></b>
+          <b><p class="hi">We first got started wen we were in the same breakoutroom in computer class our topic was to make a webpage on Indian Culture. We both worked everyday after class in zoom together Saanvi did the coding and Mehek tried different codes to see if it worked this is how we got started together then the day came to present we did really good and now we thought to start S&M together to try codes and learn CSS and HTML together and here we are making our 2nd Website/Webpage together </p></b>
+        </div>
+        <div class="card">
+          <h2 class="h2">About Mehek</h2>
+          <b>
+            <p class="hi">Like we said Saanvi did the coding in her side and Mehek tried the different codes in her laptop so that nothing goes wrong in the original one thats how thay worked together they both used Code.org these site which they were using learned from their school another thing Mehek started coding at 6th grade only when she joined school she was the one who made the logo as well</p></b>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2 class="h2">About Saanvi</h2>
+
+          <b><p class="hi">Saanvi was the brains of the team she did the coding and making in her laptop she is very smart  both of them working together make a great team she started coding way before Mehek and helped her in catching up with school when she was new Saanvi is a huge part of the team<p></b>
+        </div>
+        <div class="card">
+          <h3 class=h2>OUR LOGO #S&M</h3>
+          <img src="WhatsApp-Image-2022-02-01-at-13.22.02-(1).jpeg" height= 150 width=150  alt="image description/">
+          <div class="card">
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <h3>Group members: Saanvi and Mehek</h3>
+        <h3>Aim : to make a webpage look like a website</h3>
+        <h3> Follow mehek on Instagram: @cheekymehek
+        </h3><br>
+        <h2 face="Algerian"> Keep Rocking! And Thank you!:)</h2>
+
+      </div>
+
+      </body>
+    </html>

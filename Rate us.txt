@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .header {
+        background-image: linear-gradient(to bottom right, #D8BFD8, #DDA0DD, #ADFF2F );
+        padding: 30px;
+        text-align: center;
+        color: azure;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color:rgba(37, 204, 172, 0.85)
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: azure;
+        color: black;
+      }
+      .h2{
+        color: #117376;
+        font-family: cursive;
+        font-size: 30px;
+        background-image:url(tumblr_7d29943a00dbf16bcccf25495f0c5b5b_ce83070b_400.gif);
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+
+      input[type=text], select {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 6px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      
+      .Name {
+        width: 100%;
+        padding: 12px 12px;
+        margin: 6px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        
+      }
+      
+      .button {
+        background-image: url(tumblr_7d29943a00dbf16bcccf25495f0c5b5b_ce83070b_400.gif);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+      .footer {
+        background-color: #D8BFD8;
+        padding: 10px;
+        text-align: center;
+      }
+      
+      
+      
+      
+      
+    </style>
+  </head>
+  <body>
+    <div class="header">
+    <h1>S&M</h1>
+    <b><p font-size="20.5 px">Saanvi and Mehek
+      <br>
+      Experience od 11 to 12 years</p></b>
+    </div>
+
+  <div class="topnav">
+    <a href="home.html">Home</a>
+    <a href="Aim.html">Aim</a>
+    <a href="About.html">About us</a>
+    <a href="Rateus.html">Rate us</a>
+    
+  </div><br><br>
+ <forms>
+   
+   <fieldset><input type="range" id="slider" value="10" name="range" size=""> <div id="output"></div><h3>1   2  3   4  5  6  7  8  9  10</h3></fieldset><br><br>
+    
+    
+     
+   
+    <fieldset>
+      <h1 class=h2>Comments..</h1>
+      <p>We would appreciate if you would write your feedback in the comment section</p><br><br><br><br>
+      <form action="/action_page.php">
+        <input type="text" class=Name name="firstname" placeholder="Your Name">
+        
+        <input type="text" class=Name name="firstname" placeholder="Email">
+        
+        <input type="text" Class="fname" name="firstname" placeholder="write your comment here..">
+        
+        <a href="response.html"><input class="button" type="button" value="Send"></fieldset>
+          <br>
+      
+          
+      
+     
+          
+        
+        
+        
+
+        
+
+    
+    
+    
+    
+    </forms>
+  </body>
+</html>
